@@ -1,24 +1,24 @@
 {
   "basics": {
     "name": "Celine Jin",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
-    "image": "/portfolio-celine-jin/marcille.jpg",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "label": "Bióloga especializada en Bioinformática, Bioestadística e Inteligencia Artificial, apasionada por la Genética y la Medicina Personalizada",
+    "image": "/me.webp",
+    "email": "linnacelinejin@gmail.com",
+    "phone": "+34 675073888",
+    "url": "se puede meter un url",
+    "summary": "Revelo los secretos de la vida a través de la bioinformática.",
     "location": {
-      "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
+      "address": "Alcalá de Henares",
+      "postalCode": "28805",
+      "city": "Madrid",
       "countryCode": "ES",
       "region": "España"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "celinelinnajin",
+        "url": "https://linkedin.com/in/celinelinnajin"
       },
       {
         "network": "X",
@@ -30,12 +30,13 @@
         "username": "midudev",
         "url": "https://github.com/midudev"
       }
+
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
+      "name": "Celine Jin",
+      "position": "Bioinformática",
       "url": "https://twitch.tv/midudev",
       "startDate": "2021-01-01",
       "endDate": null,
