@@ -63,6 +63,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         }
         {
           profiles.map(({ network, url, username }) => {
+            if (network == "X"){return ("");}; 
             const Icon = SOCIAL_ICONS[network]
 
             return (
@@ -115,7 +116,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
   img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    width: 128px;
+    width: 220px;
     border-radius: 16px;
   }
 
