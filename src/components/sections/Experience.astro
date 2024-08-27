@@ -9,10 +9,17 @@ import { work } from "@cv"
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear()
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+          // Obtener el mes y año de la fecha de inicio
+          const startDateFormatted = new Date(startDate).toLocaleDateString('es-ES', { year: 'numeric', month: 'long'});
+        
 
+          // Obtener el mes y año de la fecha de fin
+          const endDateFormatted = endDate != null
+            ? new Date(endDate).toLocaleDateString('es-ES', { year: 'numeric', month: 'long' })
+            : "Actual";
+         
+                   
+          
           return (
             <li>
               <article>
@@ -30,19 +37,26 @@ import { work } from "@cv"
                     <time 
                       datetime={startDate}
                       data-title={startDate}>
-                        {startYear}
+                        {startDateFormatted}
                     </time>
                     {" - "}
                     <time 
                       datetime={endDate}
                       data-title={endDate}>
-                        {endYear}
+                        {endDateFormatted}
                     </time>
                   </div>
                 </header>
 
                 <footer>
-                  <p>{summary}</p>
+                  { summary.map( parrafo => {
+      
+                      if (parrafo == "\n") {
+                      return (<br/>)
+                      } 
+                      else {
+                      return (<p>{parrafo}</p>)
+                      }})}
                 </footer>
               </article>
             </li>
@@ -126,4 +140,5 @@ import { work } from "@cv"
       text-align: right;
     }
   }
+
 </style>

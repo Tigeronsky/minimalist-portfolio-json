@@ -6,7 +6,10 @@
     "email": "linnacelinejin@gmail.com",
     "phone": "+34 675073888",
     "url": "se puede meter un url",
-    "summary": "Revelo los secretos de la vida a través de la bioinformática.",
+    "summary": ["Revelo los secretos de la vida a través de la bioinformática.",
+                "Licenciada en Biología especializada en Bioinformática y Bioestadística, enfocada en el análisis de datos genómicos y la aplicación de la inteligencia artificial en la biología.",
+                "Mi experiencia incluye el manejo avanzado de herramientas como RStudio, Python, Bash, Galaxy, con el objetivo de desarrollar soluciones innovadoras en la biología computacional.", 
+                "Con fluidez en chino y castellano, y conocimientos de inglés, aspiro a transformar datos complejos en avances científicos que mejoren la salud y promuevan la sostenibilidad global."],
     "location": {
       "address": "Alcalá de Henares",
       "postalCode": "28805",
@@ -22,50 +25,76 @@
       },
       {
         "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "",
+        "url": "https://x.com/"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "Tigeronsky",
+        "url": "https://github.com/Tigeronsky"
       }
 
     ]
   },
   "work": [
     {
-      "name": "Celine Jin",
-      "position": "Bioinformática",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Blimey",
+      "position": "Azafata de tierra",
+      "url": " ",
+      "startDate": "2024-02-01",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": ["Asistencia a pasajeros chinos en su idioma nativo,", "\n",
+                  "proporcionando información sobre vuelos, procedimientos y servicios del aeropuerto de Barajas.", "\n",
+                  "Facilitando la comunicación efectiva entre pasajeros y personal del aeropuerto,", "\n",
+                  "resolviendo dudas y problemas de manera eficiente pudiendo mejorar la experiencia de los pasajeros", "\n",
+                  "a través de un servicio al cliente."],
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "Topazium Artificial Intelligence",
+      "position": "Bioinformática",
+      "url": " ",
+      "startDate": "2024-03-01",
+      "endDate": "2024-07-01",
+      "summary": ["Mi estancia en Topazium Smart Medicine me permitió participar en varios", "\n",
+                  "proyectos en los cuales desarrollé mis capacidades de bioinformática y análisis de datos. Diseñé un pipeline para el variant calling de secuencias de genoma completo, para ello manejé archivos sam, bam y vcf utilizando herramientas bioinformáticas incluyendo fastp, hisat2 y samtools, y visualizando las varianzas en Integrative Genomics Viewer. Utilicé bash y Python para la automatización de tareas, lo que optimizó el flujo de trabajo. También tuve la oportunidad de involucrarme en proyectos de computer vision, aplicando conocimientos de deep learning en el ámbito biomédico. Además, trabajé con bases de datos de alimentos, analizando su composición química para desarrollar herramientas de inteligencia artificial. Aparte de adquirir conocimientos técnicos, mejoré la capacidad de análisis, resolución de problemas informáticos y trabajando tanto de manera independiente como en equipo."],
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "UCAM Universidad Católica San Antonio de Murcia",
+      "position": "Bioinformática - Proyecto de investigación",
+      "startDate": "2023-04-01",
+      "endDate": "2023-10-01",
+      "summary": [""],
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Universidad de Alcalá",
+      "position": "Analista de investigación",
+      "startDate": "2022-09-01",
+      "endDate": "2023-02-01",
+      "summary": [""],
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Instituto de Ciencia y Tecnología de Alimentos y Nutrición (ICTAN-CSIC)",
+      "position": "Auxiliar de laboratorio de investigación",
+      "startDate": "2022-03-01",
+      "endDate": "2023-07-01",
+      "summary": ["Durante mi estancia en el CSIC-ICTAN trabajé en el departamento de caracterización, calidad y seguridad. Me enfoqué en el estudio y análisis cromatográfico de compuestos indólicos y alcaloides bioactivos en alimentos y plantas, evaluando su biotransformación enzimática y preparando muestras para su análisis mediante HPLC. Pude desenvolverme en un labotorio utilizando diversos instrumentales de laboratorio. Aprendí a manejar equipos de HPLC y HPLC-MS, realicé técnicas de extracción de fase sólida y líquido-líquido, así como el uso del rotavapor. ", "Además de poner en práctica mis conocimientos teóricos, desarrollé habilidades de organización y planificación, distribuyendo mi tiempo de manera eficiente para completar mis tareas. En el entorno laboral conté con compañeros con los que fomenté la cooperación y la comunicación efectiva."],
       "highlights": [
         "Started the company"
       ]
     }
+
   ],
   "volunteer": [{
     "organization": "Organization",
@@ -196,6 +225,10 @@
     {
       "language": "English",
       "fluency": "Advanced"
+    },
+    {
+      "language": "Chino",
+      "fluency": "Native speaker"
     }
   ],
   "interests": [{

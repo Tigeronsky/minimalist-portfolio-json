@@ -102,4 +102,70 @@ pnpm dev
 [MIT](LICENSE.txt) - Creado por [**midudev**](https://midu.dev).
 
 
+#######################################################################################################################################
+
+1. Cambios dentro de cv.json
+
+- Realizamos los cambios pertinentes
+- Podemos ver el status con git status
+- Añadimos los cambios, empaquetamos con git add .
+                                         git add cv.json Hero.astro 
+- Podemos hacer un commit con git commit -m "Descripción del cambio"
+- Lo subimos con git push
+
+2. Iniciar servidor para ver cambios en directo
+
+- Iniciar npm start
+- Seguimos con npm run deploy
+
+3. Realizar cambios desde el navegador
+
+- Abrimos el navegador y vamos a la url http://localhost:4321/portfolio-celine-jin
+- F12 o ajustes > más herramientas > herramientas para desarrolladores
+- Ventanita con flechita lateral izquierdo, cambiar según se mire y copiar los códigos al .astro indicado
+
+
+Extras:
+
+* Si quiero añadir párrafos, hay dos maneras para hacerlo:
+- Puedo hacerlo directamente en el archivo .astro. En este caso en About.astro.
+- Opción 1: insertar un if en el que recorra una lista y si se encuentra con (ejemplo: \n) haga un salto de párrafo, es decir un <br>
+
+<Section title="Sobre mí">
+  {
+    summary.map( parrafo => {
+      
+      if (parrafo == "\n") {
+      return (<br/>)
+
+    } else {
+      return (<p>{parrafo}</p>)
+
+    }})
+  }
+  
+</Section>
+
+En el .json debería aparecer algo así:
+"summary": ["Revelo los secretos de la vida a través de la bioinformática.", "\n",
+            "Licenciada en Biología...", "\n",
+            "Mi experiencia...", "\n",
+            "Con fluidez en chino..."],
+    
+
+
+- Opción 2: configurar el espacio de los márgenes según guste
+
+<style>
+  p {
+  margin-top: 20px;
+  }
+
+</style>
+
+
+
+
+
+
 

@@ -6,7 +6,24 @@ const { summary } = basics
 ---
 
 <Section title="Sobre mí">
-  <p>
-    {summary}
-  </p>
+  {
+    summary.map( parrafo => {
+      
+      if (parrafo == "\n") {
+      return (<br/>)
+
+    } else {
+      return (<p>{parrafo}</p>)
+
+    }})
+  }
+  
 </Section>
+
+<style>
+  p {
+  margin-top: 20px;
+  }
+
+  
+</style>
